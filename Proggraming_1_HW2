@@ -1,0 +1,88 @@
+Proggraming_1_HW2
+
+Exercise1  
+a)	Using eclipse, create a new java project called myProject. 
+b)	In myProject create a new class called “welcome” 
+c)	In the welcome class, add the driver method “ public static void main (String [ ] args) ”
+d)	In the driver method, print the following statement “ Welcome to java programming from your name ” 
+
+
+Exercise 2  
+ Trace the following code, to find and solve the syntax error. You need to write the line number, 
+ the mistake and the solution.  
+
+1.public class  {
+	2.public static void main(String [] args) {
+		3.   System.out.println("Hello world");
+	4.      }
+	5.   }
+  
+  
+Exercise 3 
+Trace the following code, to find and solve the syntax error. You need to write the line number, 
+the mistake and the solution.  
+
+1.public class Hello  {
+	2.public static void main(String[] args) {
+		3.   System.out.println("Hello world");
+	4.      }
+	5.   
+
+
+
+Exercise 4 
+Trace the following code, to find and solve the syntax error. You need to write the line number, 
+the mistake and the solution.  
+
+  1.public class Hello  {
+	2.public static void main(String[] args) {
+		3.   System.out.println("Hello world")
+	4.      }
+	5.   }
+  
+  
+  
+  
+Exercise 5 
+What is the output of the following code ?
+
+1.public class Hello  {
+	2.public static void main(String[] args) {
+		3.   
+	4.      }
+	5.   }
+  
+------------------------------------------------------------------------------------
+
+
+Solution Exercise1:
+package myProject;
+
+public class welcome {
+	public static void main(String []args) {
+		System.out.println("Welcome to java programming from your name");
+	}
+	
+}
+Print: Welcome to java programming from ADNAN
+
+
+Solution Exercise2:
+Error in the line: (1)
+The solution: public class Hello { 
+
+
+Solution Exercise3:
+Error in the line: (5)
+The solution: } 
+
+
+Solution Exercise4:
+Error in the line: (3)
+The solution:;
+
+
+Solution Exercise5:  
+The solution :Nothing  
+
+
