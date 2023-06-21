@@ -1,4 +1,0 @@
-# Proggraming_1
-
-fffdvdddddddddddddddddddddddddddddddddddd
-dddddddddddddddddddd
