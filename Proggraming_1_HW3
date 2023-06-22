@@ -1,0 +1,129 @@
+Proggraming_1_HW3
+
+Exercise1  
+a)	Using eclipse, create a new java project called myProject2. 
+b)	In myProject create a new class called “rectangleArea” 
+c)	In the welcome class, add the driver method “ public static void main (String [ ] args) ”
+d)	In the driver method, declare three variables (width, length, area), use double as the data type. 
+e)	Then, initialize your variable as follows 
+•	width = 3
+•	length = 4
+•	area = width x length
+f)	Print the result of the area, your result should be 
+
+
+Exercise 2  
+ What is the output of the following code ?
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=3 , y , ruslt=x+y;
+		System.out.print(ruslt);
+			
+	}
+
+}
+
+Exercise 3 
+What is the output of the following code ?
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=3 , y=4 , ruslt=x+y;
+		System.out.print(ruslt);
+			
+	}
+
+}
+
+
+
+
+Exercise 4 
+Trace the following code, to find and solve the syntax error. You need to write the line number, the mistake and the solution.  
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=3 , y , ruslt=x+y;
+		System.out.print(ruslt);
+			
+	}
+
+}
+
+Exercise 5 
+ Trace the following code, to find and solve the syntax error. You need to write the line number, the mistake and the solution.  
+
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=3;
+    double y=4;
+    int   ruslt=x+y;
+		System.out.print(ruslt);
+			
+	}
+
+}
+
+-------------------------------------------------------------------------------
+Solution Exercise 1:
+package myProject2;
+
+public class rectangleArea { 
+	public static void main(String [] args ) {
+		double  x=3.0;
+		double  y=4.0;
+		double  area=x*y;
+		System.out.print(area);
+		
+				
+	}
+
+}
+Print: 12.0
+
+
+Solution Exercise 2:
+package myProject2;
+
+public class rectangleArea { 
+	public static void main(String [] args ) {
+		int  x=3;
+		int  y=4;
+		int  reuslt=x+y;
+		System.out.print(reuslt);
+		
+				
+	}
+
+}
+Print: 7 
+
+
+
+
+Solution Exercise 3:
+package myProject2;
+
+public class rectangleArea { 
+	public static void main(String [] args ) {
+		int  x=3, y=4, reuslt=x+y;
+		System.out.print(reuslt);
+		
+				
+	}
+
+}
+Print: 7
+
+
+
+Solution Exercise 4:
+Error in the line: (3)
+The solution: int  x=3, y=4, reuslt=x+y;
+
+
+
+Solution Exercise 5:
+Error in the line: (4)
+The solution: int y=4; 
+
+
+
