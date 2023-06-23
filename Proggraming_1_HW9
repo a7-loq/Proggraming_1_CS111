@@ -11,7 +11,21 @@ Write a program that stores data for 5 students in two different arrays as follo
 Exercise 2: 
 What is the output of the following code?
 
+public class XXE { 
+	public static void main(String [] args ) {
 
+    int[] numbers = new int[50];
+    for (int i=0; i < numbers.length ; i++) {
+    numbers[i] = i;
+}
+    for (int i=0; i < numbers.length ; i++) {
+    if (numbers[i] % 5 == 0) {
+	
+		System.out.println(numbers[i]);
+	}
+}
+}
+}
 
 
 
@@ -19,13 +33,150 @@ Exercise 3:
 The following code should fill in an integer array with numbers from 0 to 4. Trace the code, 
 to find and solve the logical error. You need to identify the mistake and rewrite the correct code.  
 
+public class XXE { 
+	public static void main(String [] args ) {
+
+    int[] numbers = new int[5];
+    int i = 0;
+    while (i == 0) {
+                           numbers[i] = i;
+    }
+	}
+}
+
+
 
 Exercise 4: 
 What is the output of the following code?
 
+public class XXE { 
+	public static void main(String [] args ) {
+
+String[] months = {"January", "February", "March", "April", "May", "June", "July", 
+    "August", "September", "October", "November", "December"  };
+  		System.out.println(months[5]);
+
+    }
+	}
 
 
 
 Exercise 5: 
 Write a program the calculates the maximum number in an array of 10 integers. 
 The input should be taken from the console (using a Scanner object).
+
+
+
+---------------------------------------------------------------------------------------------
+Solution Exercise 1:
+
+import java.util.Scanner;
+public class Lab9 {
+	public static void main(String[] args) {
+		 Scanner input= new Scanner(System.in);
+		 String[] StudentName= new String[5];
+		 double[] StudentGPA = new double[5];
+		 for (int i=0 ; i<5 ; i++){
+		 System.out.print("Enter student Name : ");
+		 StudentName[i]= input.next();
+
+		 System.out.print("Enter student GPA : ");
+		 StudentGPA[i]=input.nextDouble();
+		 }
+		 }
+
+}
+
+
+
+
+
+
+
+Solution Exercise 2:
+Output:
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+
+
+
+
+Solution Exercise 3:
+The error -->  while (i == 0)
+
+The correct code -->
+
+public class Lab9 {
+	public static void main(String[] args) {
+
+		 int [] number= new int[5];
+
+		 int i=0;
+
+		 while(i<5){
+		 number[i]=i;
+		 i++;
+		
+		 }
+
+		 }
+
+}
+
+
+
+
+
+Solution Exercise 4:
+Output: June
+
+
+
+
+
+Solution Exercise 5:
+
+import java.util.Scanner;
+public class Lab9 {
+	public static void main(String[] args) {
+		Scanner input= new Scanner(System.in);
+		 int [] number= new int[10];
+
+		 for (int i=0 ; i<number.length ; i++){
+
+		 number[i]= input.nextInt();
+
+		 }
+
+		 int max=number[0];
+		 for (int i=0 ; i<number.length ; i++){
+
+		 if(number[i]>max)
+		 max=number[i];
+		 }
+
+		 System.out.println("the max = " + max);
+		 }
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
