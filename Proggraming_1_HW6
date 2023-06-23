@@ -2,11 +2,11 @@ Exercise1:  fill in the truth table based on the given Boolean variables     A a
 
 
 Variables 	            Truth Table Outputs For Each Gate
-A     | 	B	    |      (A && B)	 |   (A || B)	 | !(A && B)  |	!(A || B)	 |  (A ^ B)  |
-False	| False 	|	 	 	           |             |	 	 	      |            |	         |
-False | True	  | 	 	 	         |             |	 	 	      |            |	         |
-True  |	False		|			           |             |	 	 	      |            |	         |
-True  |	True	 	|			           |             |	 	 	      |            |	         |
+A     | 	B    |      (A && B)   |   (A || B)  | !(A && B)    | !(A || B)   |  (A ^ B)     |
+False | False  	     | 	               |             |	 	    |             |	         |
+False | True	     | 	 	       |             |	 	    |             |	         |
+True  |	False	     |		       |             |	 	    |             |	         |
+True  |	True	     |		       |             |	 	    |             |	         |
 
 
 
@@ -70,11 +70,11 @@ Not applicable
 Solution Exercise 1:
 		
 Variables 	            Truth Table Outputs For Each Gate
-A     | 	B	    |      (A && B)	 |   (A || B)	 | !(A && B)  |	!(A || B)	 |  (A ^ B)  |
-False	| False 	|	 	 	  False    |    False    |	  True	  |    True    |	 False   |
-False | True	  | 	 	 	False    |     True    |	 	True 	  |    False   |	 True    |
-True  |	False		|			  False    |     True    |	 	True 	  |    False   |	 True    |
-True  |	True	 	|			  True     |     True    |	 	False   |    False   |	 False   |
+A     | 	B      |      (A && B)	 |   (A || B)  | !(A && B)  |!(A || B)   |  (A ^ B)      |
+False | False 	       |        False    |    False    |   True	    |    True    |	 False   |
+False | True           | 	False    |     True    |     True   |    False   |	 True    |
+True  |	False	       |        False    |     True    |     True   |    False   |	 True    |
+True  |	True	       |        True     |     True    |    False   |    False   |	 False   |
 
 
 
@@ -83,10 +83,12 @@ Output:  true
 
 
 Solution Exercise 3:
-		 Output: true 
+Output: true 
 
 Solution Exercise 4:
-		Output: false 
+Output: false 
+
+
 
 Solution Exercise 5: 
 
