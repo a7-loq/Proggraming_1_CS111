@@ -1,0 +1,167 @@
+Proggraming_1_HW5
+
+Exercise1:  apply a one-way if statement.
+
+Using the Scanner object, write a simple java program to do the following 
+1.	asks the user for their age
+2.	checks if the age is greater than or equal to 18 
+3.	if age >= 18 print “you are an adult”
+4.	if age < 18 print “you are a teenager”
+
+*You need to provide the complete source code 
+
+
+
+Exercise 2: apply a two-way if statement.
+
+Using the Scanner object, write a simple java program to do the following 
+1.	asks the user for their age
+2.	checks if the age is greater than or equal to 18 
+a.	if age >= 18 print “you are an adult”
+b.	if age < 18 print “you are a teenager”
+
+*You need to provide the complete source code 
+
+
+
+Exercise 3 : apply a nested if statement.
+
+Using the Scanner object, write a simple java program to do the following 
+1.	asks the user for their age
+2.	checks if the age is greater than or equal to 18 
+a.	if age > 18 print “you are an adult”
+b.	if age <= 18 print “you are a teenager”
+3.	checks if the age equal 18 print “you need a guardian” 
+
+*You need to provide the complete source code 
+
+
+
+Exercise 4 : apply multiple alternative if statements.
+
+Using the Scanner object, write a simple java program to do the following 
+1.	asks the user enter their exam score
+2.	checks the score, the table below describes the assignment of grades based on an exam score
+Exam Score 	Grade Assigned :
+4-5 			A
+3-3.99		B 
+2-2.99		C
+1-1.99		D
+below 1 	F
+
+3.	print the grade assigned based on the entered score. 
+
+*You need to provide the complete source code 
+
+
+-----------------------------------------------------------------------------------------------
+Solution Exercise 1:
+import java.util.Scanner;
+	public class Lab5 {
+
+		public static void main(String []args) {
+			Scanner input = new Scanner(System.in);
+			System.out.print("How old are you");
+			int age = input.nextInt();
+		
+			if (age >=18) {
+				System.out.println("yuo are an adult");
+			}
+			else {
+				System.out.println("yuo are a teenager");
+
+	        	}
+		}
+		
+	}
+
+
+
+
+Solution Exercise 2:
+import java.util.Scanner;
+	public class Lab5 {
+
+		public static void main(String []args) {
+			Scanner input = new Scanner(System.in);
+			System.out.print("How old are you");
+			int age = input.nextInt();
+		
+			if (age >=18) {
+				System.out.println("yuo are an adult");
+			}
+			else {
+				if (age <18)
+				System.out.println("yuo are a teenager");
+
+           		}
+		}
+		
+	}
+
+
+
+
+Solution Exercise 3:
+
+import java.util.Scanner;
+	public class Lab5 {
+
+		public static void main(String []args) {
+			Scanner input = new Scanner(System.in);
+			System.out.print("How old are you");
+			int age = input.nextInt();
+		
+			if (age >18) {
+				System.out.println("yuo are an adult");
+			}
+			else {
+				if (age <=18)
+				System.out.println("yuo are a teenager"); 
+			}
+
+		if (age ==18);  {
+		System.out.println("yuo need a guardian"); 
+		}
+			
+		}
+		
+	}
+
+
+
+
+
+Solution Exercise 4:
+import java.util.Scanner; 
+	public class Lab5 {
+
+		public static void main(String []args) {
+			Scanner input = new Scanner(System.in);
+			System.out.println("Enter yuor score");
+			int score = input.nextInt();
+			
+				if (score>=4); {
+				System.out.println("A");
+			
+		} else {
+				if (score>=3);
+				System.out.println("B");
+			
+		} else  {
+				if (score>=2);
+				System.out.println("C");
+			
+		} else {
+				if (score>=1);
+				System.out.println("D");
+			
+		}  {
+	else
+				System.out.println("F");
+		}
+		
+
+         	}
+
+	}
