@@ -16,7 +16,8 @@ Hints:
 •	draw the flowchart
 
 
-Problem 3: Write an algorithm for finding the result of a student, given that the passing grade is 60. Student fail If grade is less than 60 and pass otherwise. 
+Problem 3: Write an algorithm for finding the result of a student, given that the passing grade is 60. 
+Student fail If grade is less than 60 and pass otherwise. 
 Hints:
 •	define the input and the output
 •	define the steps 
