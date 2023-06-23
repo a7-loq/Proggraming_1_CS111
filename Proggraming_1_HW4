@@ -3,4 +3,108 @@ Proggraming_1_HW4
 Exercise1  
 What is the output of the following code?
 
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=4;
+    iny  y=3; 
+    ruslt= y-x;
+		System.out.println(ruslt);
+	}
+
+}
+
+Exercise 2  
+What is the output of the following code?
+
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=4;
+    iny  y=3; 
+    ruslt= x/y;
+		System.out.println(ruslt);
+	}
+
+}
+
+Exercise 3 
+What is the output of the following code?
+
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=4;
+    iny  y=3; 
+    ruslt= y % x;
+		System.out.println(ruslt);
+	}
+
+}
+
+Exercise 4 
+What is the output of the following code?
+
+public class Hello { 
+	public static void main(String [] args ) {
+		
+		System.out.println(3 + 2 * 3 - (2+3));
+	}
+
+}
+
+Exercise 5 
+What is the output of the following code?
+
+public class Hello { 
+	public static void main(String [] args ) {
+
+int age = 4;
+String name = "Ahmed" ;
+String welcome = "Hello, my name is" ;
+String description = "My age is" ;
+
+		System.out.println(welcome + name);
+		System.out.println(description + age);
+
+	}
+
+}
+
+
+Exercise 6
+What is the output of the following code ?
+
+public class Hello { 
+	public static void main(String [] args ) {
+
+int age = 4;
+String name = "Ahmed" ;
+String welcome = "Hello, my name is" ;
+String description = "My age is" ;
+String all = welcome + name + ". " + description + age ; 
+
+		System.out.println(name);
+
+	}
+
+}
+
+----------------------------------------------------------------------------
+Solution Exercise 1:
+Output: -1
+
+Solution Exercise 2:
+Output: 1
+
+Solution Exercise 3:
+Output: 3
+
+Solution Exercise 4:
+Output: 4
+
+Solution Exercise 5:
+Output: Hello, my name is Ahmed 
+My age is 4
+
+Solution Exercise 6:
+Output: Ahmed 
+
 
