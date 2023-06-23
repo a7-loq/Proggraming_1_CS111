@@ -1,2 +1,197 @@
 Proggraming_1_HW8
 
+
+
+Exercise1:  
+Write a program to display the multiples of 5 from 1-100.
+
+
+Exercise 2: 
+What is the output of the following code? 
+
+public class HW8 { 
+	public static void main(String [] args ) {
+
+    int i=1 , j; 
+     while (i <= 3)  {
+		System.out.println(i);
+j=1;
+     while (i <= 2)  {
+	
+		System.out.println("i = " + i + "; j = " + j);
+j++;
+                	}
+i++;   
+}
+            }
+         }
+
+
+
+
+
+
+Exercise3: 
+
+Write a program (using do…while loop) that takes an order from a customer at a restaurant and calculates the total price. 
+The total price should be displayed to the customer at the end. (Hint: You need to use a switch statement for the menu).
+Here is an output example:
+Welcome to CS111 Restaurant !!!!
+Please choose from the following menu:
+1- Orange Juice (5 SR)
+2- Apple Juice (3 SR)
+3- Sandwich (10 SR)
+4- Pizza (15 SR)
+5- Pasta (20 SR)
+6- Exit
+1
+4
+4
+8
+Error ... Please enter a valid choice!
+5
+10
+Error ... Please enter a valid choice!
+6
+The total price of your order = 55.0 
+
+
+
+
+Exercise 4:
+
+Trace the following code, to find and solve the syntax error. You need to identify the mistake and rewrite the correct code.  
+while (int i = 0; i <= 100; i++) {
+			if (i % 5 == 0) {
+				System.out.println(i);
+			}
+			
+		}
+
+
+
+
+Exercise 5: 
+
+Trace the following code, to find and solve the syntax error. You need to identify the mistake and rewrite the correct code.  
+Scanner input = new Scanner (System.in);
+int number = 0;
+		
+do {
+System.out.println("Enter a positive number from 1-100:");
+	number = input.nextInt();
+			
+} while(number != 0)
+
+---------------------------------------------------------------------------------------------------------------------------------
+Solution Exercise 1:
+
+import java.util.Scanner;
+public class Lab8 {
+	public static void main(String[] args) {
+		int i=1;
+		while(i<100) {
+			if (i%5 == 0);
+			System.out.println(i);
+	i++ ;
+		}
+	}
+	
+	
+
+}
+
+
+
+
+
+
+Solution Exercise 2:
+Output:
+1
+i =1; j = 1
+i =1; j = 2
+2
+i =2; j = 1
+i =2; j = 2
+3
+i =3; j = 1
+i =3; j = 2
+
+
+
+
+
+Solution Exercise 3:
+
+import java.util.Scanner;
+public class Lab8 {
+	public static void main(String[] args) {
+
+		String menu = "Welcome to ADNAN Resturant\r\n"
+		  		+ "Please choose from the following menu:\r\n"
+		  		+ "1- Orange Juice (5 SR)\r\n"
+		  		+ "2- Apple Juice (3 SR)\r\n"
+		  		+ "3- Sandwich (10 SR)\r\n"
+		  		+ "4- Pizza (15 SR)\r\n"
+		  		+ "5- Pasta (20 SR)\r\n"
+		  		+ "6- Exit";
+        	System.out.println(menu);
+        	Scanner input = new Scanner(System.in);
+        	double total =0;
+        	int choice = 0;
+        	
+        	do {
+        		 choice = input.nextInt();
+        		
+        		if (choice == 1)
+        		total +=5;
+        		else if (choice == 2)
+        		total+=3;
+        		else if ( choice == 3)
+        		total+=10;
+        		else if ( choice == 4)
+        	    total+=15;
+        		else if ( choice == 5)
+        		total +=20;
+        		else if ( choice == 6)
+        		total +=0;
+        			else  
+        	System.out.println("Error ... Please enter a valid choice!");
+           	
+        	
+        	} while(choice != 6);
+        	
+        	
+        	System.out.println(" The total price of your order " + total);
+        	}
+
+                 }
+
+                     
+
+
+
+
+
+Solution Exercise 4:
+The Correct Code:
+	int i=0;
+		while(i<=100) {
+			i++;
+			if(i%5==0) {
+				System.out.println(i);
+			}
+		}
+
+
+
+
+
+Solution Exercise 5:
+The error in the Code: while(number != 0) 
+The Correct Code: while(number !=0); 
+
+
+
+
