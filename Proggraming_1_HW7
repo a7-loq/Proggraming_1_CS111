@@ -10,7 +10,6 @@ exceeds the maximum capacity which is 20.
 
 Exercise 2: What is the output of the following code ? 
 
-
 public class Hello { 
 	public static void main(String [] args ) {
 
