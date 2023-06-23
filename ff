@@ -1,0 +1,12 @@
+Exercise1:  fill in the truth table based on the given Boolean variables     A and B.
+
+
+Variables 	            Truth Table Outputs For Each Gate
+A     | 	B	    |      (A && B)	 |   (A || B)	 | !(A && B)  |	!(A || B)	 |  (A ^ B)  |
+False	| False 	|	 	 	           |             |	 	 	      |            |	         |
+False | True	  | 	 	 	         |             |	 	 	      |            |	         |
+True  |	False		|			           |             |	 	 	      |            |	         |
+True  |	True	 	|			           |             |	 	 	      |            |	         |
+
+Exercise 2: What is the output of the following code ?
+
