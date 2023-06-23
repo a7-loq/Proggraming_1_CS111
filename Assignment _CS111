@@ -55,8 +55,12 @@ then, using the Flight Equation above, calculate a value for the lift figure. Th
 or the weight figure converted to Newtons, either way, so long as they are in the same unit. The weight and the lift are compared. 
 If the weight is the same as the lift ± 250, then the aircraft is flying straight and level. If the weight is greater than lift + 250, 
 then the aircraft is descending (losing altitude) and if the weight is less than lift - 250, then the aircraft is climbing (gaining altitude) 
+
 Some sample runs of the program are included below (user input is in bold):
+
+
 Example 1
+
 > java Flying
 Enter air density (p) >> 1.2
 Enter velocity (m/s) >> 79.03
@@ -65,7 +69,10 @@ Enter lift co-efficient >> 1.276
 Enter aircraft name >> F/A 18 Hornet
 Enter aircraft weight >> 18136
 The F/A 18 Hornet aircraft is flying level 
+
+
 Example 2
+
 > java Flying
 Enter air density (p) >> 1.2
 Enter velocity (m/s) >> 65.26
@@ -73,7 +80,10 @@ Enter wing surface area (m^2) >> 37.16
 Enter lift co-efficient >> 1.276
 Enter aircraft name >> F/A 18 Hornet Enter aircraft weight >> 18136
 The F/A 18 Hornet aircraft is descending 
+
+
 Example 3
+
 > java Flying
 Enter air density (p) >> 1.2
 Enter velocity (m/s) >> 80.04
