@@ -8,7 +8,135 @@ False | True	  | 	 	 	         |             |	 	 	      |            |	        
 True  |	False		|			           |             |	 	 	      |            |	         |
 True  |	True	 	|			           |             |	 	 	      |            |	         |
 
+
+
+
 Exercise 2: What is the output of the following code ?
 
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=1 , y=2 , z=9 ;
+    boolean ruslt ;
+      ruslt= (x > y) || (z > x)  ;
+		System.out.println(ruslt);
+	}
+
+}
 
 
+Exercise 3: 
+What is the output of the following code ?
+
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=1 , y=2 , z=9 ;
+    boolean ruslt ;
+      ruslt= (x > y) && (z > x)  ;
+		System.out.println(ruslt);
+	}
+
+}
+
+
+Exercise 4: 
+What is the output of the following code ?
+
+public class Hello { 
+	public static void main(String [] args ) {
+		int  x=1 , y=2 , z=9 ;
+    boolean ruslt ;
+      ruslt= (x > y) ^ (z > x)  ;
+		System.out.println(ruslt);
+	}
+
+}
+
+
+Exercise 5 : Using Switch statement, write a java code that asks the user to “Enter a number  from 0 to 9” and 
+then from the console reads the input int value and print to the screen the of input value in letters.
+If the input value is not between 0 and 9 print “Not applicable”
+
+Example 1
+Enter a number  from 0 to 9!
+3
+Three
+ 
+Example 2
+Enter a number  from 0 to 9!
+10
+Not applicable
+
+-----------------------------------------------------------------------------------------------
+Solution Exercise 1:
+		
+Variables 	            Truth Table Outputs For Each Gate
+A     | 	B	    |      (A && B)	 |   (A || B)	 | !(A && B)  |	!(A || B)	 |  (A ^ B)  |
+False	| False 	|	 	 	  False    |    False    |	  True	  |    True    |	 False   |
+False | True	  | 	 	 	False    |     True    |	 	True 	  |    False   |	 True    |
+True  |	False		|			  False    |     True    |	 	True 	  |    False   |	 True    |
+True  |	True	 	|			  True     |     True    |	 	False   |    False   |	 False   |
+
+
+
+Solution Exercise 2:
+Output:  true 
+
+
+Solution Exercise 3:
+		 Output: true 
+
+Solution Exercise 4:
+		Output: false 
+
+Solution Exercise 5: 
+
+import java.util.Scanner;
+
+public class Lab6 {
+	public static void main(String[] args) {
+		
+     Scanner input = new Scanner (System.in); {
+			System.out.print("Enter a number from 0 to 9");
+
+			int number = input.nextInt();
+
+			switch (number) {
+			 case 0:			 
+				  System.out.println("zero");
+				  break; 
+			 case 1:			 
+				  System.out.println("one");
+	               break;
+			  case 2: 
+				  System.out.println("two");
+			      break;
+			  case 3:			 
+				  System.out.println("three");
+				  break;  
+			  case 4: 
+				  System.out.println("four");
+			      break;    
+			  case 5:			 
+				  System.out.println("five");
+				  break;  
+			  case 6: 
+				  System.out.println("six");
+			      break;    
+			  case 7:			 
+				  System.out.println("seven");
+				  break;  
+			  case 8: 
+				  System.out.println("eight");
+			      break;
+			  case 9:			 
+				  System.out.println("nine");
+				  break;  
+			        default:
+				  System.out.println("Not applicable");
+				  	       	  
+			}
+		}
+		
+	}
+
+}
