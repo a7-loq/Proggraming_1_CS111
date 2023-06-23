@@ -9,6 +9,190 @@ if a number is positive, negative, or equal to zero.
 Exercise 2: 
 What is the output of the following code?
 
+public class roboots { 
+	public static void main(String [] args ) {
+
+    int ruslt = 0;
+    for (int i=1; i < 5 ; i++) {
+        ruslt = multiply(i,i+1);
+	}
+		System.out.println(ruslt);
+
+	}
+	public static int multiply(int x, int y) {
+  return x*y;
+   }
+}
+
+
+
+
+
+Exercise 3: 
+The following code asks a user to enter her/his age then determines if
+a user is an adult or not. Trace the code, to find and solve the syntax errors.
+You need to identify the errors and rewrite the correct code.  
+import java.util.Scanner;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter your age:");
+		int age = input.nextInt();
+		double flag = isAdult(double age);
+		if(flag) {
+			System.out.println("You are an adult.");
+		} else {
+			System.out.println("You are not an adult.");
+		}
+		
+		
+
+	}
+	
+	public boolean isAdult(int age) {
+		if(age > 18) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
+
+
+
+
+
+Exercise 4: 
+Write a program to do the following using the Math class:
+1-	Ask a user to enter two integer numbers
+2-	Finds the square root of each number
+3-	Finds the minimum 
+4-	Finds the maximum
+
+
+
+Exercise 5: 
+Write a program to calculate area of circle. 
+The main method should pass the radius of the circle to a static method named calculateArea().
+The program should display the calculated area inside the main method.
+
+-----------------------------------------------------------------------------------------------
+Solution Exercise 1:
+
+import java.util.Scanner;
+public class Lab10 {
+	public static void main(String []args) {
+		Scanner input= new Scanner(System.in);
+		 int x;
+		 for(int i =1 ; i<=3 ; i++){
+		 x=input.nextInt();
+		 isPositive(x);
+		 }
+		 }
+		 static void isPositive(int x) {
+
+		 if(x>0)
+		 System.out.println( x+ " : positive ");
+		 else if(x<0)
+		 System.out.println( x+ " : negative ");
+		 else
+		 System.out.println( x+ " Zero ");
+		 }
+	
+}
+
+
+
+Solution Exercise 2:
+Output: 20
+
+
+
+
+Solution Exercise 3:
+
+The error code :
+double flag = isAdult(double age);
+
+The correct code :
+import java.util.Scanner;
+public class Lab10 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter your age:");
+		int age = input.nextInt();
+		boolean flag = isAdult(age);
+		if(flag) {
+			System.out.println("You are an adult.");
+		} else {
+			System.out.println("You are not an adult.");
+		}
+		
+		
+
+	}
+	
+	public static boolean isAdult(int age) {
+		if(age > 18) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
+
+
+
+
+Solution Exercise 4:
+
+import java.util.Scanner;
+public class Lab10 {
+	public static void main(String[] args) {
+		 Scanner input= new Scanner(System.in);
+		 int x ,y;
+
+		 System.out.print("Enter the first Number : ");
+		 x=input.nextInt();
+
+		 System.out.print("Enter the Secound Number : ");
+		 y=input.nextInt();
+
+		 System.out.println("square root of "+x+" is "+ Math.sqrt(x));
+		 System.out.println("square root of "+y+" is "+ Math.sqrt(y));
+
+		 System.out.println("Min is "+ Math.min(x,y));
+
+		 System.out.println("Max is "+ Math.max(x,y));
+
+
+	}
+}
+
+
+
+
+
+Solution Exercise 5:
+
+import java.util.Scanner;
+public class Lab10 {
+	public static void main(String[] args) {
+		 Scanner input= new Scanner(System.in);
+		 double x ;
+
+		 System.out.print("Enter the radius : ");
+		 x=input.nextDouble();
+
+		 System.out.println(" the area = " + calculateArea(x));
+		 }
+		 public static double calculateArea(double radius ){
+
+		 return 3.14*radius*radius;
+		 }
+}
 
 
 
