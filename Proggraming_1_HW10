@@ -1,1 +1,15 @@
 Proggraming_1_HW10
+
+Exercise1:  
+Write a program that takes three integer numbers from the console as inputs.
+For each number, the program should call a static method named isPositive() to determine 
+if a number is positive, negative, or equal to zero.   
+
+
+Exercise 2: 
+What is the output of the following code?
+
+
+
+
+
