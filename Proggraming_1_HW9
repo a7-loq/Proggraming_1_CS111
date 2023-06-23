@@ -1,1 +1,31 @@
 Proggraming_1_HW9
+
+
+Exercise1:  
+Write a program that stores data for 5 students in two different arrays as follows:
+1-	Name: take student’s names from the console (using Scanner object) then store their names in an array of a String data type 
+2-	GPA: : take student’s GPA from the console (using the same Scanner object) then store their GPAs in an array of a double data type
+
+
+
+Exercise 2: 
+What is the output of the following code?
+
+
+
+
+
+Exercise 3: 
+The following code should fill in an integer array with numbers from 0 to 4. Trace the code, 
+to find and solve the logical error. You need to identify the mistake and rewrite the correct code.  
+
+
+Exercise 4: 
+What is the output of the following code?
+
+
+
+
+Exercise 5: 
+Write a program the calculates the maximum number in an array of 10 integers. 
+The input should be taken from the console (using a Scanner object).
