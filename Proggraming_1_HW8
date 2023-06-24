@@ -128,7 +128,7 @@ import java.util.Scanner;
 public class Lab8 {
 	public static void main(String[] args) {
 
-		String menu = "Welcome to ADNAN Resturant\r\n"
+		String menu = "Welcome to your name Resturant\r\n"
 		  		+ "Please choose from the following menu:\r\n"
 		  		+ "1- Orange Juice (5 SR)\r\n"
 		  		+ "2- Apple Juice (3 SR)\r\n"
